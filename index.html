@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,32 +27,48 @@
         }
     </script>
 </head>
+
 <body class="font-sora">
     <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
         <!-- navbar  -->
-         <nav class="px-4 py-2 max-w-4xl lg:max-w-6xl mx-auto flex justify-between items-center">
+        <nav
+            class="px-4 py-2 max-w-4xl lg:max-w-6xl mx-auto flex justify-between items-center border-b-2 border-[#179800] md:border-0">
             <!-- logo/ left -->
-             <div>
-                <img class="border-2 border-dashed cursor-pointer w-32" src="./assets/logo-header.png" alt="logo-header">
-             </div>
-             <!-- links/ center  -->
-              <ul class="hidden md:flex gap-8">
+            <div>
+                <img class="border-2 border-dashed border-gray-300 cursor-pointer w-32" src="./assets/logo-header.png"
+                    alt="logo-header">
+            </div>
+            <!-- links/ center  -->
+            <ul class="hidden md:flex gap-8">
                 <li><a class="text-[#111111] text-lg " href="#">Product</a></li>
                 <li><a class="text-[#111111] text-lg " href="#">Services</a></li>
                 <li><a class="text-[#111111] text-lg " href="#">Contact us</a></li>
-              </ul>
-              <!-- right -->
-               <div class="hidden  md:flex gap-3 items-center">
+            </ul>
+            <!-- right -->
+            <div class="hidden  md:flex gap-3 items-center">
                 <i class='bx bx-search text-2xl  cursor-pointer mr-2'></i>
                 <i class='bx bx-cart-alt text-2xl cursor-pointer mr-2'></i>
-                <button class="btn btn-outline hover:bg-[#179800] border-[#179800] text-gray-500 hover:text-white">Login</button>
+                <button
+                    class="btn btn-outline hover:bg-[#179800] border-[#179800] text-gray-500 hover:text-white">Login</button>
                 <button class="btn bg-[#179800] hover:bg-[#2c921ac2] text-white font-bold">Register</button>
-               </div>
-               <!-- mobile icon  -->
-                <div class="md:hidden">
-                    <i class='bx bx-menu text-3xl font-bold cursor-pointer'></i>
-                </div>
-         </nav>
-       </header>
+            </div>
+            <!-- mobile icon  -->
+            <div class="md:hidden">
+                <i class='bx bx-menu text-3xl font-bold text-[#179800] cursor-pointer'></i>
+            </div>
+        </nav>
+        <!-- hero section  -->
+        <div class="px-4 pt-16 text-center max-w-4xl mx-auto">
+            <!-- text content  -->
+            <div>
+                <h1 class="text-4xl lg:text-5xl  font-bold mb-4">Freshness <span class="text-[#179800]">You Can <br>
+                    Count</span> On, Prices You’ll Love!</h1>
+                <p class="text-[#111111] font-light mb-5">Shop your daily essentials at unbeatable prices. From fresh
+                    produce to pantry staples, we’ve got you covered every day!</p>
+                    <img src="./assets/hero-vegetables.png" alt="hero-vegetables" class=" w-full lg:w-4/5 mx-auto border-2 border-gray-300 border-dashed">
+            </div>
+        </div>
+    </header>
 </body>
+
 </html>
